@@ -4,7 +4,7 @@ import React from "react";
 
 function NavBar() {
   return (
-    <main className="w-full items-center justify-between py-4 px-12 flex sticky top-0">
+    <main className="w-full items-center justify-between py-4 px-12 flex sticky top-0 z-50">
       <Link href="/">
         <Image
           src="/Logo.svg"

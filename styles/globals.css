@@ -5,8 +5,15 @@
   font-family: "RNSCamelia";
   src: url("../public/fonts/RNSCamelia.otf");
 }
+::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
 @layer components {
   .smooth {
     @apply transition-all duration-300 ease-in-out;
   }
+  .arrow__wrapper {
+    @apply rounded-full bg-[#85B1FF] items-center justify-center flex p-3 cursor-pointer smooth opacity-80 hover:opacity-100;
+  }
+  /* hide scrollbar but allow scrolling */
 }
